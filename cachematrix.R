@@ -3,7 +3,7 @@
 ## Every time you need the inverse of your function, run cacheSolve. If you have run it before, cacheSolve
 ## Returns the result without rerunning it.
 
-## makeCacheMatrix set up for functons get, set, setinv and getinv
+## MakeCacheMatrix set up for functons get, set, setinv and getinv
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
@@ -37,6 +37,4 @@ cacheSolve <- function(x, ...) {
   x$setinv(i)
   i
 }
-
-
 
